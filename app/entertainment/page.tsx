@@ -355,14 +355,14 @@ export default function Entertainment() {
   }, [searchTerm, vendors])
 
   // Custom color scheme for entertainment
-  {/* const entertainmentColorScheme = {
-    primary: "from-purple-500 to-indigo-700",
-    secondary: "bg-purple-100",
-    accent: "bg-indigo-600",
-    text: "text-purple-900",
-    background: "bg-purple-50",
-  }
-*/}
+  //{/* const entertainmentColorScheme = {
+   // primary: "from-purple-500 to-indigo-700",
+   // secondary: "bg-purple-100",
+  //  accent: "bg-indigo-600",
+   // text: "text-purple-900",
+  //  background: "bg-purple-50",
+ // }
+//*/}
   // Add swapping effect every 10 minutes
   useEffect(() => {
     // Set up interval for swapping categories
@@ -681,7 +681,7 @@ export default function Entertainment() {
             />
           </motion.div>
       
-          {/* Trending and Popular Section with 3D Cards */}{/*
+         {/*Trending and Popular Section with 3D Cards */}{/*
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
